@@ -64,7 +64,6 @@ spec:
   environment {
     APP_NAME         = "gpa-wiz"
     GIT_REPO         = "https://github.com/sebastined/gpa-wiz.git"
-    # Edit this to your registry/project. No trailing slash.
     REGISTRY         = "harbor.int.sebastine.ng/900"
     IMAGE_NAME       = "${REGISTRY}/${APP_NAME}"
     TAG              = "${BUILD_NUMBER}"
